@@ -1,0 +1,3 @@
+First, open the text file for writing (or append) using the open() function.
+Second, write to the text file using the write() or writelines() method.
+Third, close the file using the close() method.
