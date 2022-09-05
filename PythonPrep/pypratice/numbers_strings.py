@@ -11,10 +11,15 @@ class Century:
 
     def remove_first_last_char(self):
         name = "Hello World"
-        print(name)
-        print(name[1:len(name) - 1])
+        size = len(name)
+        name_modify = name[1:size]
+        print(name_modify)
+        # print(name)
+        # print(name[1:len(name) - 1])
 
-    def sum_two_variabes(self):
+
+
+    def sum_two_values(self):
         chocolatePrice = '₹35'
         lemonPrice = '₹20'
         total = int(chocolatePrice[1:len(chocolatePrice)]) + int(lemonPrice[1:len(lemonPrice)])
@@ -24,5 +29,5 @@ class Century:
 runner = Century()
 # runner.year_century()
 runner.remove_first_last_char()
-total_value = runner.sum_two_variabes()
-print(total_value)
+# total_value = runner.sum_two_variabes()
+# print(total_value)

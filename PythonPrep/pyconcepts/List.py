@@ -51,7 +51,7 @@ def sort_method_list():
                  ('Apple', 2019, 260.2),
                  ('Facebook', 2019, 70.7)]
     print(f"list of companies:- {companies}")
-    print(companies[2])
+    print(companies[1])
     print(f"type of compines: {type(companies)}")
 
     companies.sort(key=sort_key)
@@ -89,4 +89,4 @@ def list_iterator():
     for index, city in enumerate(cities):
         print(f"Index and City:- {index}: {city}")
 
-list_iterator()
+#list_iterator()
